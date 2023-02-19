@@ -1,0 +1,56 @@
+.card{
+    border: 2px solid black;
+    width: 95%;
+    height: 90%;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.img1{
+    background: url("Screenshot 2023-02-09 172519.png");
+    background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    border: 2px solid black;
+    height: 100%;
+}
+
+.img2{
+    background: url("Screenshot 2023-02-20 020546.png");
+    background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    border: 2px solid black;
+    height: 100%;
+}
+
+.img3{
+    background: url("Screenshot 2023-02-09 173407.png");
+    background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    border: 2px solid black;
+    height: 100%;
+}
+
+.img4{
+    background: url("Screenshot 2023-02-20 013401.png");
+    background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    border: 2px solid black;
+    height: 100%;
+}
+
+.link {
+    position: absolute;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+    cursor: pointer;
+  }

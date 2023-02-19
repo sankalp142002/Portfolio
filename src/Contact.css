@@ -1,0 +1,143 @@
+.contact{
+    float: right;
+    width: 88%;
+    background-color: #1f2627;
+    height: 100vh;
+    background-image: url("image-from-rawpixel-id-6289589-original.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.con{
+  font-size: 11rem;
+}
+
+iframe{
+    width: 60vh;
+    height: 70vh;
+    position: absolute;
+    right: 0;
+    bottom: -500vh;
+    margin: 1rem;
+    margin-right: 3rem;
+}
+
+.contact-form {
+    width: 45%;
+    position: absolute;
+    left: 13%;
+    bottom: -500vh;
+    margin: 1rem;
+    margin-right: 3rem;
+    margin-bottom: 5rem;
+    padding: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea,
+  #contact button[type="submit"] {
+    font-size: medium ;
+  }
+  
+  
+  
+  fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea {
+    width: 100%;
+    border: 1px solid #A27B5C;
+    background: transparent;
+    margin: 0 0 5px;
+    padding: 10px;
+  }
+  
+  #contact input[type="text"]:hover,
+  #contact input[type="email"]:hover,
+  #contact input[type="tel"]:hover,
+  #contact input[type="url"]:hover,
+  #contact textarea:hover {
+    -webkit-transition: border-color 0.6s ease-in-out;
+    -moz-transition: border-color 0.6s ease-in-out;
+    transition: border-color 0.6s ease-in-out;
+    border: 1px solid #DCD7C9;
+  }
+  
+  #contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+  }
+
+  #contact button[type="submit"]{
+    z-index: 2;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+  .fill {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 50px 13px;
+    outline: 0;
+    border: 1px solid #A27B5C;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .fill::after {
+    content: "";
+    background-color: #3F4E4F;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  .fill:hover::after {
+    top: 0px;
+    left: 0px;
+  }
+  
+
+
+  
+  #contact input:focus,
+  #contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #DCD7C9;
+  }
+  
+  :-moz-placeholder {
+    color: #DCD7C9;
+  }
+  
+  ::-moz-placeholder {
+    color: #DCD7C9;
+  }
+  
+  :-ms-input-placeholder {
+    color: #DCD7C9;
+  }
+  

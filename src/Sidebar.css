@@ -1,0 +1,59 @@
+.sidebar{
+    height: 100vh;
+    width: 12%;
+    background-color: #2C3639;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    z-index: -10;
+}
+.logo{
+    background-image: url("Screenshot_2023-01-23_011710-removebg-preview.png");
+    margin-top: -15vh;
+    height: 25%;
+    width: 90%;
+    background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+.nav{
+    margin: 50px;
+    margin-top: 10;
+    padding: 20px;
+    width: 100%;
+}
+
+.nav  ul li{
+    border-bottom: 2px solid #A27B5C;
+    height: 5vh;
+    margin: 10px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.links{
+    width: 100%;
+}
+
+.links ul{
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.links ul a{
+    height: 5vh;
+    width: 33%;
+    margin: 6px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,14 @@
+.blog{
+    float: right;
+    width: 88%;
+    background-color: #1f2627;
+    height: 100vh;
+    background-image: url("image-from-rawpixel-id-6257395-original.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.soon{
+    margin-top: 25rem;
+}

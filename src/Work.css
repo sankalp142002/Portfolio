@@ -1,0 +1,25 @@
+.work{
+    float: right;
+    width: 88%;
+    background-color: #1f2627;
+    height: 100vh;
+    background-image: url("—Pngtree—black pencil sketch landscape mountain_6523800.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+.tiles-sec{
+    width: 90%;
+    height: 65vh;
+    position: relative;
+    margin: 1rem;
+    margin-top: 7rem;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%, -50%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
