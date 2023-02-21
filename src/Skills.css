@@ -217,7 +217,9 @@ svg {
     100% { width: 14px; opacity: 1;}
   }
   
-  
+.skills{
+  scroll-snap-align: start;
+}
 .skill-intro{
     width: 35%;
     margin: 2rem;

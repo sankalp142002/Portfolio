@@ -9,6 +9,7 @@
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center center;
+  scroll-snap-align: start;
 }
 .anitext {
   font-family: inherit;

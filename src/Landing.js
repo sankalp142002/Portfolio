@@ -21,7 +21,7 @@ function Landing() {
                       </p>
         <div className="contactme">
         <button type="button" className="fill">Contact Me</button>
-        <a className="fill resume" target="_blank" href="https://drive.google.com/file/d/1AvQuzAqv9IZKFCgKIXmCZYLpPOJnMarn/view?usp=sharing">Resume</a>
+        <a className="fill resume" target="_blank" href="https://drive.google.com/file/d/1nA6A96EkICyVxqEzj73W216_Nc7YYwcY/view?usp=sharing">Resume</a>
         </div>
 
       </div>
